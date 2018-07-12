@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  margin: 20px;
+}
+.target {
+  width: 20px;
+  height: 20px;
+  background: #555555;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #00cc89;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  z-index: 2;
+}
+.origin {
+  width: 20px;
+  height: 20px;
+  background: #f8e71c;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  cursor: pointer;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  vertical-align: top;
+  font-weight: bold;
+  z-index: 2;
+}
+.ball {
+  width: 8px;
+  height: 8px;
+  background: #a077ec;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: 1;
+}
